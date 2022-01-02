@@ -3,22 +3,21 @@
 		"author": "zOmArRD",
 		"default": true,
 		"names": {
-			"en_US": "English (USA)",
-			"es_ES": "Spanish (Spain)"
+			"en_US": "English (USA)"
 		}
 	},
 	"messages": {
 		"not-permission": "{PREFIX}{RED}Apparently you do not have permissions to execute this action.",
-		"player.not-online": "Oops, apparently the {PLAYER-NAME} player is not connected to the server!",
+		"player.not-online": "{PREFIX} Oops, apparently the player ({PLAYER-NAME}) is not connected to the server!",
 
 		"form.button.close": "{RED}Close",
 		"form.button.predetermined": "{BLUE}Predetermined",
 
 		"lang.text.set-language": "{WHITE}Set your language",
-		"lang.text.list-of-language": "List of available languages:",
+		"lang.text.available-language": "Available languages:",
 		"lang.text.set": "{PREFIX}{GREEN}Now your language is {NEW-LANG}",
 		"lang.text.set-fail": "{PREFIX}{RED}An error has occurred changing your language!",
-		"lang.command.set-list": "Use: </lang list> to see the list of available languages"
+		"lang.command.set-list": "{PREFIX} Use: </lang list> to see the list of available languages"
 	},
 	"item_data": {
 		"server-selector": "§r§cServer Selector"
