@@ -8,16 +8,17 @@
 		}
 	},
 	"messages": {
-		"global.permission.message": "{PREFIX}{RED}Apparently you do not have permissions to execute this action.",
+		"not-permission": "{PREFIX}{RED}Apparently you do not have permissions to execute this action.",
+		"player.not-online": "Oops, apparently the {PLAYER-NAME} player is not connected to the server!",
 
-		"global.form.button.close": "{RED}Close",
-		"global.form.button.predetermined": "{BLUE}Predetermined",
+		"form.button.close": "{RED}Close",
+		"form.button.predetermined": "{BLUE}Predetermined",
 
-
-		"lang.form.title": "{WHITE}Change language",
-		"lang.form.content": "List of available languages:",
-		"lang.message.set": "{PREFIX}{GREEN}Now your language is {NEW-LANG}",
-		"lang.message.set-fail": "{PREFIX}{RED}An error has occurred changing your language!"
+		"lang.text.set-language": "{WHITE}Set your language",
+		"lang.text.list-of-language": "List of available languages:",
+		"lang.text.set": "{PREFIX}{GREEN}Now your language is {NEW-LANG}",
+		"lang.text.set-fail": "{PREFIX}{RED}An error has occurred changing your language!",
+		"lang.command.set-list": "Use: </lang list> to see the list of available languages"
 	},
 	"item_data": {
 		"server-selector": "§r§cServer Selector"
