@@ -10,16 +10,19 @@
 		"not-permission": "{PREFIX}{RED}Apparently you do not have permissions to execute this action.",
 		"player.not-online": "{PREFIX} Oops, apparently the player ({PLAYER-NAME}) is not connected to the server!",
 
+		"global.mute.is-enabled": "{PREFIX}You can't speak, global chat has been disabled!",
+
 		"form.button.close": "{RED}Close",
 		"form.button.predetermined": "{BLUE}Predetermined",
 
-		"lang.text.set-language": "{WHITE}Set your language",
-		"lang.text.available-language": "Available languages:",
-		"lang.text.set": "{PREFIX}{GREEN}Now your language is {NEW-LANG}",
-		"lang.text.set-fail": "{PREFIX}{RED}An error has occurred changing your language!",
-		"lang.command.set-list": "{PREFIX} Use: </lang list> to see the list of available languages"
+		"set-language": "{WHITE}Set your language",
+		"available-language": "Available languages:",
+		"lang.applied-correctly": "{PREFIX}{GREEN}Now your language is {NEW-LANG}",
+		"lang.applied-fail": "{PREFIX}{RED}An error has occurred changing your language!",
+		"command.lang-list": "{PREFIX} Use: </lang list> to see the list of available languages"
 	},
 	"item_data": {
-		"server-selector": "§r§cServer Selector"
+		"server-selector": "§r§cServer Selector",
+		"lobby-selector": "§r§cLobby Selector"
 	}
 }
