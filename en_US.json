@@ -19,7 +19,12 @@
 		"available-language": "Available languages:",
 		"lang.applied-correctly": "{PREFIX}{GREEN}Now your language is {NEW-LANG}",
 		"lang.applied-fail": "{PREFIX}{RED}An error has occurred changing your language!",
-		"command.lang-list": "{PREFIX} Use: </lang list> to see the list of available languages"
+		"command.lang-list": "{PREFIX} Use: </lang list> to see the list of available languages",
+
+		"server.connect.error-1": "{PREFIX}{RED}You are already connected to this server!",
+		"server.connecting": "{PREFIX}{GREEN}Connecting to the server {SERVER-NAME}...",
+		"server.not-online": "{PREFIX}{RED}This server is not online!",
+		"server.is-whitelisted": "{PREFIX}{RED}This server are whitelisted!"
 	},
 	"item_data": {
 		"server-selector": "§r§cServer Selector",
