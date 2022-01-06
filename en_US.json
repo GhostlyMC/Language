@@ -22,9 +22,11 @@
 		"command.lang-list": "{PREFIX} Use: </lang list> to see the list of available languages",
 
 		"server.connect.error-1": "{PREFIX}{RED}You are already connected to this server!",
+		"server.connect.error-2": "{PREFIX}{RED}Apparently this server is not a Lobby!",
 		"server.connecting": "{PREFIX}{GREEN}Connecting to the server {SERVER-NAME}...",
 		"server.not-online": "{PREFIX}{RED}This server is not online!",
-		"server.is-whitelisted": "{PREFIX}{RED}This server are whitelisted!"
+		"server.is-whitelisted": "{PREFIX}{RED}This server are whitelisted!",
+		"lobby-server.form.content": "§bAvailable Lobby servers"
 	},
 	"item_data": {
 		"server-selector": "§r§cServer Selector",
