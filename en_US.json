@@ -26,7 +26,11 @@
 		"server.connecting": "{PREFIX}{GREEN}Connecting to the server {SERVER-NAME}...",
 		"server.not-online": "{PREFIX}{RED}This server is not online!",
 		"server.is-whitelisted": "{PREFIX}{RED}This server are whitelisted!",
-		"lobby-server.form.content": "§bAvailable Lobby servers"
+		"lobby-server.form.content": "§bAvailable Lobby servers",
+
+		"discord.invitation.message": "{PREFIX}Enter our discord server!\n\n§9https://discord.gg/apNvumC7Mu\n\n",
+		"store.link.message": "{PREFIX}{WHITE}Link to our store: {GREEN}store.greekmc.net\n\n"
+
 	},
 	"item_data": {
 		"server-selector": "§r§cServer Selector",
