@@ -1,0 +1,43 @@
+{
+	"language_data": {
+		"author": "zOmArRD",
+		"default": true,
+		"names": {
+			"en_US": "English (USA)",
+			"es_ES": "Español (España)",
+			"es_MX": "Español (Mexico)"
+		}
+	},
+	"messages": {
+		"not-permission": "{PREFIX}{RED}Aparentemente no tiene permisos para ejecutar esta acción.",
+		"player.not-online": "{PREFIX} Ups, aparentemente el jugador ({PLAYER-NAME}) no está conectado al servidor!",
+
+		"global.mute.is-enabled": "{PREFIX}¡No puedes hablar, el chat global ha sido deshabilitado!",
+
+		"form.button.close": "{RED}Cerrar",
+		"form.button.predetermined": "{BLUE}Predeterminado",
+
+		"set-language": "{WHITE}Establece tu idioma",
+		"available-language": "Idiomas Disponibles:",
+		"lang.applied-correctly": "{PREFIX}{GREEN}Ahora tu idioma es {NEW-LANG}",
+		"lang.applied-fail": "{PREFIX}{RED}Ha ocurrido un error al cambiar tu idioma!",
+		"command.lang-list": "{PREFIX} Use: </lang list> para ver la lista de idiomas disponibles",
+
+		"server.connect.error-1": "{PREFIX}{RED}Ya está conectado al servidor!",
+		"server.connect.error-2": "{PREFIX}{RED}Aparentemente este servidor no es un Lobby!",
+		"server.connect.error-3": "{PREFIX}{YELLOW}¡Este servidor aún no está disponible en nuestra red!\nAvisaremos en nuestro servidor de discord cuando abramos una nueva modalidad.",
+		"server.connecting": "{PREFIX}{GREEN}Conectando al servidor {SERVER-NAME}...",
+		"server.not-online": "{PREFIX}{RED}Este servidor no está en línea.!",
+		"server.is-whitelisted": "{PREFIX}{RED}Este servidor está en la lista blanca!",
+		"lobby-server.form.content": "§bServidores de lobby disponibles",
+
+		"discord.invitation.message": "{PREFIX}Entra a nuestro servidor de discord!\n\n§9https://discord.gg/apNvumC7Mu\n\n",
+		"store.link.message": "{PREFIX}{WHITE}Enlace a nuestra tienda: {DARK_RED}store.ghostlymc.live\n\n"
+
+	},
+	"item_data": {
+		"item-servers": "§r§cSelector de servidor",
+		"item-lobby": "§r§cSelector de vestíbulo",
+		"item-cosmetics": "§r§cCosméticos"
+	}
+}

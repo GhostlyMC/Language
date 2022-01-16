@@ -3,7 +3,9 @@
 		"author": "zOmArRD",
 		"default": true,
 		"names": {
-			"en_US": "English (USA)"
+			"en_US": "English (USA)",
+			"es_ES": "Español (España)",
+			"es_MX": "Español (Mexico)"
 		}
 	},
 	"messages": {
@@ -30,7 +32,7 @@
 		"lobby-server.form.content": "§bAvailable Lobby servers",
 
 		"discord.invitation.message": "{PREFIX}Enter our discord server!\n\n§9https://discord.gg/apNvumC7Mu\n\n",
-		"store.link.message": "{PREFIX}{WHITE}Link to our store: {GREEN}store.greekmc.net\n\n"
+		"store.link.message": "{PREFIX}{WHITE}Link to our store: {DARK_RED}store.ghostlymc.live\n\n"
 
 	},
 	"item_data": {
