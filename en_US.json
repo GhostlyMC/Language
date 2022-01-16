@@ -23,6 +23,7 @@
 
 		"server.connect.error-1": "{PREFIX}{RED}You are already connected to this server!",
 		"server.connect.error-2": "{PREFIX}{RED}Apparently this server is not a Lobby!",
+		"server.connect.error-3": "{PREFIX}{YELLOW}This server is not yet available on our network!\nWe will notify on our discord server when we are going to open a new modality.",
 		"server.connecting": "{PREFIX}{GREEN}Connecting to the server {SERVER-NAME}...",
 		"server.not-online": "{PREFIX}{RED}This server is not online!",
 		"server.is-whitelisted": "{PREFIX}{RED}This server are whitelisted!",
@@ -33,7 +34,8 @@
 
 	},
 	"item_data": {
-		"server-selector": "§r§cServer Selector",
-		"lobby-selector": "§r§cLobby Selector"
+		"item-servers": "§r§cServer Selector",
+		"item-lobby": "§r§cLobby Selector",
+		"item-cosmetics": "§r§cCosmetics"
 	}
 }
