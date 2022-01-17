@@ -38,6 +38,7 @@
 	"item_data": {
 		"item-servers": "§r§cServer Selector",
 		"item-lobby": "§r§cLobby Selector",
-		"item-cosmetics": "§r§cCosmetics"
+		"item-cosmetics": "§r§cCosmetics",
+		"item-config": "§r§cPlayer Settings"
 	}
 }

@@ -38,6 +38,7 @@
 	"item_data": {
 		"item-servers": "§r§cSelector de servidor",
 		"item-lobby": "§r§cSelector de vestíbulo",
-		"item-cosmetics": "§r§cCosméticos"
+		"item-cosmetics": "§r§cCosméticos",
+		"item-config": "§r§cConfiguración del jugador"
 	}
 }
