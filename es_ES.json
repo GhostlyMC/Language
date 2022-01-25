@@ -1,7 +1,7 @@
 {
 	"language_data": {
 		"author": "zOmArRD",
-		"default": true,
+		"default": false,
 		"names": {
 			"en_US": "English (USA)",
 			"es_ES": "Español (España)",
