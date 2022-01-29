@@ -27,7 +27,7 @@
 		"server.connect.error-2": "{PREFIX}{RED}Aparentemente este servidor no es un Lobby!",
 		"server.connect.error-3": "{PREFIX}{YELLOW}¡Este servidor aún no está disponible en nuestra red!\nAvisaremos en nuestro servidor de discord cuando abramos una nueva modalidad.",
 		"server.connecting": "{PREFIX}{GREEN}Conectando al servidor {SERVER-NAME}...",
-		"server.not-online": "{PREFIX}{RED}Este servidor no está en línea.!",
+		"server.not-online": "{PREFIX}{RED}Este servidor no está en línea!",
 		"server.is-whitelisted": "{PREFIX}{RED}Este servidor está en la lista blanca!",
 		"lobby-server.form.content": "§bServidores de lobby disponibles",
 
