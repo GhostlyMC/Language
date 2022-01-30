@@ -13,16 +13,14 @@
 		"player.not-online": "{PREFIX} Oops, apparently the player ({PLAYER-NAME}) is not connected to the server!",
 
 		"global.mute.is-enabled": "{PREFIX}You can't speak, global chat has been disabled!",
-
 		"form.button.close": "{RED}Close",
 		"form.button.predetermined": "{BLUE}Predetermined",
-
 		"set-language": "{WHITE}Set your language",
 		"available-language": "Available languages:",
 		"lang.applied-correctly": "{PREFIX}{GREEN}Now your language is {NEW-LANG}",
 		"lang.applied-fail": "{PREFIX}{RED}An error has occurred changing your language!",
 		"command.lang-list": "{PREFIX} Use: </lang list> to see the list of available languages",
-
+		"server.searching": "{PREFIX}Connecting to the database...",
 		"server.connect.error-1": "{PREFIX}{RED}You are already connected to this server!",
 		"server.connect.error-2": "{PREFIX}{RED}Apparently this server is not a Lobby!",
 		"server.connect.error-3": "{PREFIX}{YELLOW}This server is not yet available on our network!\nWe will notify on our discord server when we are going to open a new modality.",
@@ -30,7 +28,6 @@
 		"server.not-online": "{PREFIX}{RED}This server is not online!",
 		"server.is-whitelisted": "{PREFIX}{RED}This server are whitelisted!",
 		"lobby-server.form.content": "§bAvailable Lobby servers",
-
 		"discord.invitation.message": "{PREFIX}Enter our discord server!\n\n§9https://discord.gg/apNvumC7Mu\n\n",
 		"store.link.message": "{PREFIX}{WHITE}Link to our store: {DARK_RED}store.ghostlymc.live\n\n"
 
