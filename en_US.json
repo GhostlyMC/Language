@@ -24,6 +24,7 @@
 		"server.connect.error-1": "{PREFIX}{RED}You are already connected to this server!",
 		"server.connect.error-2": "{PREFIX}{RED}Apparently this server is not a Lobby!",
 		"server.connect.error-3": "{PREFIX}{YELLOW}This server is not yet available on our network!\nWe will notify on our discord server when we are going to open a new modality.",
+		"server.connect.error-4": "{PREFIX}{RED}This server has reached its maximum player capacity, and apparently you don't have permission to enter!",
 		"server.connecting": "{PREFIX}{GREEN}Connecting to the server {SERVER-NAME}...",
 		"server.not-online": "{PREFIX}{RED}This server is not online!",
 		"server.is-whitelisted": "{PREFIX}{RED}This server are whitelisted!",
