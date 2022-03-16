@@ -1,41 +1,45 @@
 {
-	"language_data": {
-		"author": "zOmArRD",
-		"default": true,
-		"names": {
-			"en_US": "English (USA)",
-			"es_ES": "Español (España)",
-			"es_MX": "Español (Mexico)"
-		}
-	},
-	"messages": {
-		"not-permission": "{PREFIX}{RED}Apparently you do not have permissions to execute this action.",
-		"player.not-online": "{PREFIX} Oops, apparently the player ({PLAYER-NAME}) is not connected to the server!",
-
-		"global.mute.is-enabled": "{PREFIX}You can't speak, global chat has been disabled!",
-		"form.button.close": "{RED}Close",
-		"form.button.predetermined": "{BLUE}Predetermined",
-		"set-language": "{WHITE}Set your language",
-		"available-language": "Available languages:",
-		"lang.applied-correctly": "{PREFIX}{GREEN}Now your language is {NEW-LANG}",
-		"lang.applied-fail": "{PREFIX}{RED}An error has occurred changing your language!",
-		"command.lang-list": "{PREFIX} Use: </lang list> to see the list of available languages",
-		"server.searching": "{PREFIX}Connecting to the database...",
-		"server.connect.error-1": "{PREFIX}{RED}You are already connected to this server!",
-		"server.connect.error-2": "{PREFIX}{RED}Apparently this server is not a Lobby!",
-		"server.connect.error-3": "{PREFIX}{YELLOW}This server is not yet available on our network!\nWe will notify on our discord server when we are going to open a new modality.",
-		"server.connecting": "{PREFIX}{GREEN}Connecting to the server {SERVER-NAME}...",
-		"server.not-online": "{PREFIX}{RED}This server is not online!",
-		"server.is-whitelisted": "{PREFIX}{RED}This server are whitelisted!",
-		"lobby-server.form.content": "§bAvailable Lobby servers",
-		"discord.invitation.message": "{PREFIX}Enter our discord server!\n\n§9https://discord.gg/apNvumC7Mu\n\n",
-		"store.link.message": "{PREFIX}{WHITE}Link to our store: {DARK_RED}store.ghostlymc.live\n\n"
-
-	},
-	"item_data": {
-		"item-servers": "§r§cServer Selector",
-		"item-lobby": "§r§cLobby Selector",
-		"item-cosmetics": "§r§cCosmetics",
-		"item-config": "§r§cPlayer Settings"
-	}
+  "language_data": {
+    "author": "zOmArRD",
+    "default": true,
+    "names": {
+      "en_US": "English (USA)",
+      "es_ES": "Español (España)",
+      "es_MX": "Español (Mexico)"
+    }
+  },
+  "messages": {
+    "not-permission": "{PREFIX}{RED}Apparently you do not have permissions to execute this action.",
+    "player.not-online": "{PREFIX} Oops, apparently the player ({PLAYER-NAME}) is not connected to the server!",
+    "global.mute.is-enabled": "{PREFIX}You can't speak, global chat has been disabled!",
+    "form.button.close": "{RED}Close",
+    "form.button.predetermined": "{BLUE}Predetermined",
+    "set-language": "{WHITE}Set your language",
+    "available-language": "Available languages:",
+    "lang.applied-correctly": "{PREFIX}{GREEN}Now your language is {NEW-LANG}",
+    "lang.applied-fail": "{PREFIX}{RED}An error has occurred changing your language!",
+    "command.lang-list": "{PREFIX} Use: </lang list> to see the list of available languages",
+    "server.searching": "{PREFIX}Connecting to the database...",
+    "server.connect.error-1": "{PREFIX}{RED}You are already connected to this server!",
+    "server.connect.error-2": "{PREFIX}{RED}Apparently this server is not a Lobby!",
+    "server.connect.error-3": "{PREFIX}{YELLOW}This server is not yet available on our network!\nWe will notify on our discord server when we are going to open a new modality.",
+    "server.connect.error-4": "{PREFIX}{RED}This server has reached its maximum player capacity, and apparently you don't have permission to enter!",
+    "server.connecting": "{PREFIX}{GREEN}Connecting to the server {SERVER-NAME}...",
+    "server.not-online": "{PREFIX}{RED}This server is not online!",
+    "server.is-whitelisted": "{PREFIX}{RED}This server are whitelisted!",
+    "lobby-server.form.content": "§bAvailable Lobby servers",
+    "discord.invitation.message": "{PREFIX}Enter our discord server!\n\n§9https://discord.gg/apNvumC7Mu\n\n",
+    "store.link.message": "{PREFIX}{WHITE}Link to our store: {DARK_RED}store.ghostlymc.live\n\n",
+    "queue.player-exist": "{PREFIX}{RED}You are already in a queue to enter the {WHITE}{SERVER-NAME}{RED} server!",
+    "queue.player-added": "{PREFIX}{GREEN}You have entered the queue to enter the {WHITE}{SERVER-NAME}{GREEN} server.\nYou are in the position {POSITION-QUEUE}",
+    "queue.player-left": "{PREFIX}{GREEN}You have exited the queue",
+    "queue.player-notice": "{PREFIX}{GREEN}Your position is {POSITION-QUEUE}"
+  },
+  "item_data": {
+    "item-servers": "§r§cServer Selector",
+    "item-lobby": "§r§cLobby Selector",
+    "item-cosmetics": "§r§cCosmetics",
+    "item-config": "§r§cPlayer Settings",
+    "item-queue": "§r§cQueue Exit"
+  }
 }
