@@ -33,13 +33,17 @@
     "queue.player-exist": "{PREFIX}{RED}Ya te encuentras en una cola para entrar al servidor {WHITE}{SERVER-NAME}{RED}!",
     "queue.player-added": "{PREFIX}{GREEN}Has entrado en la cola para entrar al servidor {WHITE}{SERVER-NAME}{GREEN}.\nTe encuentras en la posición {POSITION-QUEUE}",
     "queue.player-left": "{PREFIX}{GREEN}Has salido de la cola",
-    "queue.player-notice": "{PREFIX}{GREEN}Tu posición es {POSITION-QUEUE}"
+    "queue.player-notice": "{PREFIX}{GREEN}Tu posición es {POSITION-QUEUE}",
+    "queue.server-offline": "{PREFIX}{RED} El servidor está apagado! {GREEN}Te transferiremos cuando el server se encuentre en linea."
   },
   "item_data": {
-    "item-servers": "§r§cSelector de servidor",
-    "item-lobby": "§r§cSelector de vestíbulo",
-    "item-cosmetics": "§r§cCosméticos",
-    "item-config": "§r§cConfiguración del jugador",
-    "item-queue": "§r§cSalir de la Cola"
+    "server-selector": "§r§cSelector de Servidor §7(Right Click)",
+    "lobby-selector": "§r§cSelector de Vestíbulo",
+    "cosmetics-selector": "§r§cCosméticos §7(Right Click)",
+    "personal-settings": "§r§cConfiguraciones personales §7(Right Click)",
+    "queue-exit": "§r§cSalir de la Cola",
+    "visibility-all": "§r§cVisibilidad§7:§a Todo §7(Right Click)",
+    "visibility-staff": "§r§cVisibilidad§7:§5 Empleados §7(Right Click)",
+    "visibility-nobody": "§r§cVisibilidad§7:§c Nadie §7(Right Click)"
   }
 }
