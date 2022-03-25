@@ -38,7 +38,7 @@
   },
   "item_data": {
     "server-selector": "§r§cSelector de Servidor §7(Right Click)",
-    "lobby-selector": "§r§cSelector de Vestíbulo",
+    "lobby-selector": "§r§cSelector de Vestíbulo §7(Right Click)",
     "cosmetics-selector": "§r§cCosméticos §7(Right Click)",
     "personal-settings": "§r§cConfiguraciones personales §7(Right Click)",
     "queue-exit": "§r§cSalir de la Cola",
