@@ -38,7 +38,7 @@
   },
   "item_data": {
     "server-selector": "§r§cServer Selector §7(Right Click)",
-    "lobby-selector": "§r§cLobby Selector",
+    "lobby-selector": "§r§cLobby Selector §7(Right Click)",
     "cosmetics-selector": "§r§cCosmetics §7(Right Click)",
     "personal-settings": "§r§cPersonal Settings §7(Right Click)",
     "queue-exit": "§r§cQueue Exit",
