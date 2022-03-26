@@ -28,7 +28,7 @@
     "server.not-online": "{PREFIX}{RED}Este servidor no está en línea!",
     "server.is-whitelisted": "{PREFIX}{RED}Este servidor está en la lista blanca!",
     "lobby-server.form.content": "§bServidores de lobby disponibles",
-    "discord.invitation.message": "{PREFIX}Entra a nuestro servidor de discord!\n\n§9https://discord.gg/apNvumC7Mu\n\n",
+    "discord.invitation.message": "{PREFIX}§eDiscord: §9https://discord.gg/apNvumC7Mu",
     "store.link.message": "{PREFIX}{WHITE}Enlace a nuestra tienda: {DARK_RED}store.ghostlymc.live\n\n",
     "queue.player-exist": "{PREFIX}{RED}Ya te encuentras en una cola para entrar al servidor {WHITE}{SERVER-NAME}{RED}!",
     "queue.player-added": "{PREFIX}{GREEN}Has entrado en la cola para entrar al servidor {WHITE}{SERVER-NAME}{GREEN}.\nTe encuentras en la posición {POSITION-QUEUE}",
