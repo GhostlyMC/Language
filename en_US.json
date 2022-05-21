@@ -1,42 +1,56 @@
 {
   "language_data": {
-    "author": "zOmArRD",
+    "contributors": [
+      "zOmArRD"
+    ],
     "default": true,
     "names": {
       "en_US": "English (USA)",
-      "es_ES": "Español (España)",
-      "es_MX": "Español (Mexico)"
+      "es_ES": "Español (España)"
     }
   },
-  "messages": {
-    "not-permission": "{PREFIX}{RED}Apparently you do not have permissions to execute this action.",
-    "player.not-online": "{PREFIX} Oops, apparently the player ({PLAYER-NAME}) is not connected to the server!",
-    "global.mute.is-enabled": "{PREFIX}You can't speak, global chat has been disabled!",
-    "form.button.close": "{RED}Close",
-    "form.button.predetermined": "{BLUE}Predetermined",
-    "set-language": "{WHITE}Set your language",
-    "available-language": "Available languages:",
-    "lang.applied-correctly": "{PREFIX}{GREEN}Now your language is {NEW-LANG}",
-    "lang.applied-fail": "{PREFIX}{RED}An error has occurred changing your language!",
-    "command.lang-list": "{PREFIX} Use: </lang list> to see the list of available languages",
-    "server.searching": "{PREFIX}Connecting to the database...",
-    "server.connect.error-1": "{PREFIX}{RED}You are already connected to this server!",
-    "server.connect.error-2": "{PREFIX}{RED}Apparently this server is not a Lobby!",
-    "server.connect.error-3": "{PREFIX}{YELLOW}This server is not yet available on our network!\nWe will notify on our discord server when we are going to open a new modality.",
-    "server.connect.error-4": "{PREFIX}{RED}This server has reached its maximum player capacity, and apparently you don't have permission to enter!",
-    "server.connecting": "{PREFIX}{GREEN}Connecting to the server {SERVER-NAME}...",
-    "server.not-online": "{PREFIX}{RED}This server is not online!",
-    "server.is-whitelisted": "{PREFIX}{RED}This server are whitelisted!",
-    "lobby-server.form.content": "§bAvailable Lobby servers",
-    "discord.invitation.message": "{PREFIX}§eDiscord: §9https://discord.gg/apNvumC7Mu",
-    "store.link.message": "{PREFIX}{WHITE}Link to our store: {DARK_RED}store.ghostlymc.live\n\n",
-    "queue.player-exist": "{PREFIX}{RED}You are already in a queue to enter the {WHITE}{SERVER-NAME}{RED} server!",
-    "queue.player-added": "{PREFIX}{GREEN}You have entered the queue to enter the {WHITE}{SERVER-NAME}{GREEN} server.\nYou are in the position {POSITION-QUEUE}",
-    "queue.player-left": "{PREFIX}{GREEN}You have exited the queue",
-    "queue.player-notice": "{PREFIX}{GREEN}Your position is {POSITION-QUEUE}",
-    "queue.server-offline": "{PREFIX}{RED}The server is down! {GREEN}We will transfer you when the server is online."
+  "player-strings": {
+    "player.no-perm": "{PREFIX}{RED}You don't have permission to do that.",
+    "player.not-found": "{PREFIX}{RED}Player not found.",
+    "player.not-online": "{PREFIX}{RED}Apparently, that player ({PLAYER-NAME}) is not online.",
+    "player.not-self": "{PREFIX}{RED}You can't do that to yourself.",
+    "player.not-target": "{PREFIX}{RED}You can't do that to that player."
   },
-  "item_data": {
+  "form-strings": {
+    "form.cancel": "{RED}Cancel",
+    "form.submit": "{GREEN}Submit",
+    "form.close": "{RED}Close",
+    "form.save": "{GREEN}Save",
+    "form.default": "{YELLOW}Default"
+  },
+  "language-strings": {
+    "language.default": "Default",
+    "language.select": "Select Language",
+    "language.select-desc": "Select the language you want to use.",
+    "language.applied": "{PREFIX}{GREEN}Language applied, now your language is {LANGUAGE}.",
+    "language.apply-failed": "{PREFIX}{RED}Failed to apply language, please try again later.",
+    "language.command-list": "{PREFIX}Usage: /lang list | To list all available languages.",
+    "language.command-set": "{PREFIX}Usage: /lang set <language> [player:optional] | To apply a language."
+  },
+  "network-strings": {
+    "server.connecting": "{PREFIX}{YELLOW}Connecting to {SERVER-NAME}...",
+    "server.connected": "{PREFIX}{GREEN}Connected to {SERVER-NAME}.",
+    "server.transfer-failed": "{PREFIX}{RED}Failed to transfer to {SERVER-NAME}.",
+    "server.transfer-processing": "{PREFIX}{YELLOW}Transferring to {SERVER-NAME}...",
+    "server.not-found": "{PREFIX}{RED}Server not found.",
+    "server.isnt-lobby": "{PREFIX}{RED}That server isn't the lobby.",
+    "server.not-available": "{PREFIX}{RED}That server isn't available.",
+    "server.not-online": "{PREFIX}{RED}This server is not online.",
+    "server.is-whitelisted": "{PREFIX}{GREEN}This server is whitelisted.",
+    "server.is-full": "{PREFIX}{RED}This server has reached its maximum player limit. If you want to bypass this, please visit our store."
+  },
+  "queue-strings": {
+    "queue.added": "{PREFIX}{GREEN}You have been added to the queue for {WHITE}{SERVER-NAME}.",
+    "queue.exited": "{PREFIX}{GREEN}You have been removed from the queue for {WHITE}{SERVER-NAME}.",
+    "queue.exists": "{PREFIX}{RED}You are already in the queue for {WHITE}{SERVER-NAME}.",
+    "queue.notice-position": "{PREFIX}{YELLOW}You are currently in position {POSITION} in the queue for {WHITE}{SERVER-NAME}."
+  },
+  "item-strings": {
     "server-selector": "§r§cServer Selector §7(Right Click)",
     "lobby-selector": "§r§cLobby Selector §7(Right Click)",
     "cosmetics-selector": "§r§cCosmetics §7(Right Click)",
