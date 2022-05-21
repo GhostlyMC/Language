@@ -51,13 +51,14 @@
     "queue.notice-position": "{PREFIX}{YELLOW}You are currently in position {POSITION} in the queue for {WHITE}{SERVER-NAME}."
   },
   "item-strings": {
-    "server-selector": "§r§cServer Selector §7(Right Click)",
-    "lobby-selector": "§r§cLobby Selector §7(Right Click)",
-    "cosmetics-selector": "§r§cCosmetics §7(Right Click)",
-    "personal-settings": "§r§cPersonal Settings §7(Right Click)",
-    "queue-exit": "§r§cQueue Exit",
-    "visibility-all": "§r§cVisibility§7:§a All §7(Right Click)",
-    "visibility-staff": "§r§cVisibility§7:§5 Staff §7(Right Click)",
-    "visibility-nobody": "§r§cVisibility§7:§c Nobody §7(Right Click)"
+    "item.server-selector": "§r§cServer Selector",
+    "item.lobby-selector": "§r§cLobby Selector",
+    "item.cosmetics-selector": "§r§cCosmetics Selector",
+    "item.player-settings": "§r§cPlayer Settings",
+    "item.queue-exit": "§r§cExit Queue",
+    "item.visibility-all": "§r§cVisibility: §aAll",
+    "item.visibility-friends": "§r§cVisibility: §aFriends",
+    "item.visibility-none": "§r§cVisibility: §cNone",
+    "item.visibility-staff": "§r§cVisibility: §5Staff"
   }
 }
