@@ -1,0 +1,64 @@
+{
+  "language_data": {
+    "contributors": [
+      "zOmArRD"
+    ],
+    "default": true,
+    "names": {
+      "en_US": "English (USA)",
+      "es_ES": "Español (España)"
+    }
+  },
+  "player-strings": {
+    "player.no-perm": "{PREFIX}{RED}No tienes permiso para hacer eso.",
+    "player.not-found": "{PREFIX}{RED}Jugador no encontrado.",
+    "player.not-online": "{PREFIX}{RED}Aparentemente, ese jugador ({PLAYER-NAME}) no está en línea.",
+    "player.not-self": "{PREFIX}{RED}No puedes hacerte eso a ti mismo.",
+    "player.not-target": "{PREFIX}{RED}No puedes hacerle eso a ese jugador."
+  },
+  "form-strings": {
+    "form.cancel": "{RED}Cancelar",
+    "form.submit": "{GREEN}Subir",
+    "form.close": "{RED}Cerrar",
+    "form.save": "{GREEN}Guardar",
+    "form.default": "{YELLOW}Defecto"
+  },
+  "language-strings": {
+    "language.default": "Defecto",
+    "language.select": "Seleccione el idioma",
+    "language.select-desc": "Seleccione el idioma que desea utilizar.",
+    "language.applied": "{PREFIX}{GREEN}Idioma aplicado, ahora su idioma es {LANGUAGE}.",
+    "language.apply-failed": "{PREFIX}{RED}No se pudo aplicar el idioma, inténtalo de nuevo más tarde.",
+    "language.command-list": "{PREFIX}Usage: /lang list | Para enumerar todos los idiomas disponibles.",
+    "language.command-set": "{PREFIX}Usage: /lang set <language> [player:optional] | Para aplicar un idioma."
+  },
+  "network-strings": {
+    "server.connecting": "{PREFIX}{YELLOW}Conectando a {SERVER-NAME}...",
+    "server.connected": "{PREFIX}{GREEN}Conectado a {SERVER-NAME}.",
+    "server.transfer-failed": "{PREFIX}{RED}Error al transferir a {SERVER-NAME}.",
+    "server.transfer-processing": "{PREFIX}{YELLOW}Transfiriendo a {SERVER-NAME}...",
+    "server.not-found": "{PREFIX}{RED}Servidor no encontrado.",
+    "server.isnt-lobby": "{PREFIX}{RED}Ese servidor no es el vestíbulo.",
+    "server.not-available": "{PREFIX}{RED}Ese servidor no está disponible.",
+    "server.not-online": "{PREFIX}{RED}Este servidor no está en línea.",
+    "server.is-whitelisted": "{PREFIX}{GREEN}Este servidor está en la lista blanca.",
+    "server.is-full": "{PREFIX}{RED}Este servidor ha alcanzado su límite máximo de jugadores. Si desea omitir esto, visite nuestra tienda."
+  },
+  "queue-strings": {
+    "queue.added": "{PREFIX}{GREEN}Se le ha agregado a la cola para {WHITE}{SERVER-NAME}.",
+    "queue.exited": "{PREFIX}{GREEN}Se le ha eliminado de la cola de {WHITE}{SERVER-NAME}.",
+    "queue.exists": "{PREFIX}{RED}Ya está en la cola para {WHITE}{SERVER-NAME}.",
+    "queue.notice-position": "{PREFIX}{YELLOW}Actualmente se encuentra en la posición {POSITION} en la cola para {WHITE}{SERVER-NAME}."
+  },
+  "item-strings": {
+    "item.server-selector": "§r§cSelector de servidores",
+    "item.lobby-selector": "§r§cSelector de vestíbulos",
+    "item.cosmetics-selector": "§r§cSelector de cosméticos",
+    "item.player-settings": "§r§cConfiguración del jugador",
+    "item.queue-exit": "§r§ccola de salida",
+    "item.visibility-all": "§r§cVisibilidad: §aTodos",
+    "item.visibility-friends": "§r§cVisibilidad: §aAmigos",
+    "item.visibility-none": "§r§cVisibilidad: §cNadie",
+    "item.visibility-staff": "§r§cVisibilidad: §5Personal"
+  }
+}
