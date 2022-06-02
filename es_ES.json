@@ -14,7 +14,8 @@
     "player.not-found": "{PREFIX}{RED}Jugador no encontrado.",
     "player.not-online": "{PREFIX}{RED}Aparentemente, ese jugador ({PLAYER-NAME}) no está en línea.",
     "player.not-self": "{PREFIX}{RED}No puedes hacerte eso a ti mismo.",
-    "player.not-target": "{PREFIX}{RED}No puedes hacerle eso a ese jugador."
+    "player.not-target": "{PREFIX}{RED}No puedes hacerle eso a ese jugador.",
+    "player.visibility-updated": "{PREFIX}{GREEN}Tu visibilidad se ha actualizado a {VISIBILITY-MODE}."
   },
   "form-strings": {
     "form.cancel": "{RED}Cancelar",
@@ -30,7 +31,8 @@
     "language.applied": "{PREFIX}{GREEN}Idioma aplicado, ahora su idioma es {LANGUAGE}.",
     "language.apply-failed": "{PREFIX}{RED}No se pudo aplicar el idioma, inténtalo de nuevo más tarde.",
     "language.command-list": "{PREFIX}Usage: /lang list | Para enumerar todos los idiomas disponibles.",
-    "language.command-set": "{PREFIX}Usage: /lang set <language> [player:optional] | Para aplicar un idioma."
+    "language.command-set": "{PREFIX}Usage: /lang set <language> [player:optional] | Para aplicar un idioma.",
+    "language.available-languages": "{PREFIX}{YELLOW}Idiomas Disponibles: "
   },
   "network-strings": {
     "server.connecting": "{PREFIX}{YELLOW}Conectando a {SERVER-NAME}...",

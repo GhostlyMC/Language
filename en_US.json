@@ -12,9 +12,11 @@
   "player-strings": {
     "player.no-perm": "{PREFIX}{RED}You don't have permission to do that.",
     "player.not-found": "{PREFIX}{RED}Player not found.",
-    "player.not-online": "{PREFIX}{RED}Apparently, that player ({PLAYER-NAME}) is not online.",
+    "player.not-online": "{PREFIX}{RED}Apparently, that player ({PLAYER}) is not online.",
     "player.not-self": "{PREFIX}{RED}You can't do that to yourself.",
-    "player.not-target": "{PREFIX}{RED}You can't do that to that player."
+    "player.not-target": "{PREFIX}{RED}You can't do that to that player.",
+    "player.visibility-updated": "{PREFIX}{GREEN}Your visibility has been updated to {VISIBILITY-MODE}.",
+    "player.has-cooldown": "{PREFIX}{RED}You must wait several seconds before using this item."
   },
   "form-strings": {
     "form.cancel": "{RED}Cancel",
@@ -30,7 +32,8 @@
     "language.applied": "{PREFIX}{GREEN}Language applied, now your language is {LANGUAGE}.",
     "language.apply-failed": "{PREFIX}{RED}Failed to apply language, please try again later.",
     "language.command-list": "{PREFIX}Usage: /lang list | To list all available languages.",
-    "language.command-set": "{PREFIX}Usage: /lang set <language> [player:optional] | To apply a language."
+    "language.command-set": "{PREFIX}Usage: /lang set <language> [player:optional] | To apply a language.",
+    "language.available-languages": "{PREFIX}{YELLOW}Available languages: "
   },
   "network-strings": {
     "server.connecting": "{PREFIX}{YELLOW}Connecting to {SERVER-NAME}...",
@@ -39,13 +42,14 @@
     "server.transfer-processing": "{PREFIX}{YELLOW}Transferring to {SERVER-NAME}...",
     "server.not-found": "{PREFIX}{RED}Server not found.",
     "server.isnt-lobby": "{PREFIX}{RED}That server isn't the lobby.",
-    "server.not-available": "{PREFIX}{RED}That server isn't available.",
+    "server.not-available": "{PREFIX}{RED}This server is not available.",
     "server.not-online": "{PREFIX}{RED}This server is not online.",
     "server.is-whitelisted": "{PREFIX}{GREEN}This server is whitelisted.",
-    "server.is-full": "{PREFIX}{RED}This server has reached its maximum player limit. If you want to bypass this, please visit our store."
+    "server.is-full": "{PREFIX}{RED}This server has reached its maximum player limit. If you want to bypass this, please visit our store.",
+    "server.already-connected": "{PREFIX}{RED}You are already connected to this server."
   },
   "queue-strings": {
-    "queue.added": "{PREFIX}{GREEN}You have been added to the queue for {WHITE}{SERVER-NAME}.",
+    "queue.added": "{PREFIX}{GREEN}You have been added to the queue for {WHITE}{SERVER-NAME}, {YELLOW}position {POSITION}.",
     "queue.exited": "{PREFIX}{GREEN}You have been removed from the queue for {WHITE}{SERVER-NAME}.",
     "queue.exists": "{PREFIX}{RED}You are already in the queue for {WHITE}{SERVER-NAME}.",
     "queue.notice-position": "{PREFIX}{YELLOW}You are currently in position {POSITION} in the queue for {WHITE}{SERVER-NAME}."
@@ -60,5 +64,9 @@
     "item.visibility-friends": "§r§cVisibility: §aFriends",
     "item.visibility-none": "§r§cVisibility: §cNone",
     "item.visibility-staff": "§r§cVisibility: §5Staff"
+  },
+  "other-strings": {
+    "discord.invite": "{PREFIX}{YELLOW}Join our Discord server: {WHITE}LINK",
+    "store.link": "{PREFIX}{YELLOW}Visit our store: {WHITE}LINK"
   }
 }
